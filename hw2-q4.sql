@@ -1,3 +1,7 @@
+/* List all cities that cannot be reached from San Diego through a 
+direct flight but can be reached with one stop (i.e., with any two flights 
+that go through an intermediate city). Do not include San Diego as one of 
+these destinations (even though you could get back with two flights). */
 SELECT F2.dest_city AS city 
 FROM Flights F 
 JOIN (SELECT origin_city, dest_city 
