@@ -1,3 +1,5 @@
+/* List the names of carriers that operate flights from San Diego to 
+San Francisco, CA. Return each carrier's name only once. Use a nested query to answer this question. */
 SELECT C.name AS carrier 
 FROM Carriers C 
 JOIN Flights F ON C.cid = F.carrier_id 
