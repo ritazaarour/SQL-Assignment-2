@@ -1,3 +1,5 @@
+/* List the artists who did not record any tracks of the 
+Blues genre. Return distinct artist names (only the name attribute). */
 SELECT DISTINCT A.name 
 FROM artist A 
 WHERE A.artist_id NOT IN 
